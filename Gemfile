@@ -5,8 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-# Use Jade HTML template
-gem 'jade-rails', '~> 1.9.1.0'
+# Use HAML HTML template
+gem 'haml-rails', '~> 0.9.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
