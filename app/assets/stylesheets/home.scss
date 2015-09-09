@@ -8,7 +8,7 @@ $fs:60px;
 $mainColor:#444;
 $backgroundColor:black;
 $menuH:50px;
-$menuW:200px;
+$menuW:150px;
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -20,14 +20,12 @@ body {
     }
 
     nav{
-
-      > ul{
-
+      ul{
         border-bottom: 1px solid #F0F0F0;
         border-top: 1px solid #F0F0F0;
         cursor:pointer;
+        display: inline-block;
         font-size:35px;
-        float:left;
         width: $menuW;
         &:hover{
           color:purple;
