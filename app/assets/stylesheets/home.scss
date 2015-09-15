@@ -20,12 +20,15 @@ body {
     }
 
     nav{
+
+      margin: 10px 0 10px 0;
+      border-bottom: 1px solid #F0F0F0;
+      border-top: 1px solid #F0F0F0;
+
       ul{
-        border-bottom: 1px solid #F0F0F0;
-        border-top: 1px solid #F0F0F0;
         cursor:pointer;
         display: inline-block;
-        font-size:35px;
+        font-size:25px;
         width: $menuW;
         &:hover{
           color:purple;
@@ -34,11 +37,15 @@ body {
     }
 
     #mainPhoto{
+      margin-top: 25px;
       cursor: pointer;
       clear:both;
       &:hover{
         opacity: 0.7;
       }
+    }
+    footer{
+      margin: 10px 0 10px 0;
     }
   }
 }
