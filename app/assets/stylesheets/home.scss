@@ -2,50 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-//main font
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
-$fs:60px;
-$mainColor:#444;
-$backgroundColor:black;
-$menuH:50px;
-$menuW:150px;
 
-body {
-  font-family: 'Open Sans', sans-serif;
-
-  center{
-    header{
-      font-size:$fs;
-      color: $mainColor;
-    }
-
-    nav{
-
-      margin: 10px 0 10px 0;
-      border-bottom: 1px solid #F0F0F0;
-      border-top: 1px solid #F0F0F0;
-
-      ul{
-        cursor:pointer;
-        display: inline-block;
-        font-size:25px;
-        width: $menuW;
-        &:hover{
-          color:purple;
-        }
-      }
-    }
-
-    #mainPhoto{
-      margin-top: 25px;
-      cursor: pointer;
-      clear:both;
-      &:hover{
-        opacity: 0.7;
-      }
-    }
-    footer{
-      margin: 10px 0 10px 0;
-    }
+#mainPhoto{
+  margin-top: 25px;
+  cursor: pointer;
+  clear:both;
+  &:hover{
+    opacity: 0.7;
   }
 }
+

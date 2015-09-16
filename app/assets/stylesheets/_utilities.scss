@@ -1,0 +1,13 @@
+//main font
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+$fs:60px;
+$mainColor:#444;
+$backgroundColor:black;
+$menuH:50px;
+$menuW:150px;
+
+@mixin center($w,$h){
+  margin: 0 auto;
+  width: $w;
+  height: $h;
+}

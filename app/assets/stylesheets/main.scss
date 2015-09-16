@@ -1,0 +1,32 @@
+@import 'utilities';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+  header {
+    @include center(500px,100px);
+    font-size: $fs;
+    color: $mainColor;
+  }
+
+  nav {
+
+    @include center(1000px,80px);
+    border-bottom: 1px solid #F0F0F0;
+    border-top: 1px solid #F0F0F0;
+
+    ul {
+      cursor: pointer;
+      display: inline-block;
+      font-size: 25px;
+      width: $menuW;
+      &:hover {
+        color: purple;
+      }
+    }
+  }
+  footer {
+    @include center(300px, 50px);
+  }
+
+}
