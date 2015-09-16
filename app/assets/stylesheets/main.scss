@@ -27,6 +27,7 @@ body {
   }
   footer {
     @include center(300px, 50px);
+    margin-top: 25px;
   }
 
 }

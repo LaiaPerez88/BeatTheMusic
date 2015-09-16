@@ -1,14 +1,17 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'utilities';
 
-
-#mainPhoto{
-  margin-top: 25px;
-  cursor: pointer;
-  clear:both;
-  &:hover{
-    opacity: 0.7;
+div {
+  @include center(540px, 720px);
+  #mainPhoto {
+    margin-top: 25px;
+    cursor: pointer;
+    clear: both;
+    &:hover {
+      opacity: 0.7;
+    }
   }
 }
 
