@@ -20,8 +20,20 @@ body {
       display: inline-block;
       font-size: 25px;
       width: $menuW;
-      &:hover {
-        color: purple;
+
+      & > a{
+        @extend .button;
+        color: $mainColor;
+
+        &:visited,link{
+          color:$mainColor;
+        }
+        &:active{
+          color:$mainColor;
+        }
+        &:hover {
+          color: purple;
+        }
       }
     }
   }
