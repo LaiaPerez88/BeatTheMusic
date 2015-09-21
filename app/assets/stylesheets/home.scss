@@ -2,15 +2,36 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import 'utilities';
+$imgW: 540px;
+$imgH: 720px;
 
-div#mainPhoto {
-    @include center(540px, 720px);
+.gallery{
 
+  .wrapper {
+    max-width: $imgW * 3;
+    display: inline-block;
+    max-height: $imgH;
+    float: left;
+    overflow: hidden;
+
+  }
+
+  button{
+    background-color: #B00100;
+    height: 25px;
+    width: 25px;
+    cursor:pointer;
+  }
+
+  #mainPhoto {
+    @include center($imgW, $imgH);
     margin-top: 25px;
     cursor: pointer;
     clear: both;
     &:hover {
       opacity: 0.7;
     }
+  }
+
 }
 
