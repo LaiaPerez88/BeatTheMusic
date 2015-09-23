@@ -1,9 +1,11 @@
-.gallery
-  %button.buttonGallery#leftButton
-  %button.buttonGallert#rightButton
+%section
   .wrapper
-    %img#mainPhoto{:src => "/assets/photo001.jpg"}
+    %img{:src => "/assets/photo001.jpg"}
     %img{:src => "/assets/photo002.jpg"}
     %img{:src => "/assets/photo003.jpg"}
+    .arrow
+      %img#leftButton{:src => "/assets/left.png"}
+    .arrow
+      %img#rightButton{:src => "/assets/right.png"}
 
 
