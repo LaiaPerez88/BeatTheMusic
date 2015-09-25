@@ -1,3 +1,17 @@
 // Place all the styles related to the resume controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'utilities';
+
+.div{
+  @include center(500px, 100px);
+  margin-top: 50px;
+  border: 1px solid red;
+  //padding:10px;
+  -webkit-animation-name: fontSize-transition; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+  animation-name: fontSize-transition;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
