@@ -5,6 +5,7 @@
 $imgW: 540px;
 $imgH: 720px;
 $offset:30px;
+$arrowW:25px;
 section{
 
   margin-top: 50px;
@@ -45,7 +46,7 @@ section{
       text-align:center;
       position:absolute;
       top: $imgH /2;
-      left: $imgW - 25;
+      left: $imgW - $arrowW;
     }
   }
 }
