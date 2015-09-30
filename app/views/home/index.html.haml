@@ -1,11 +1,13 @@
 %section#personalGallery
   .wrapper
-    %img#item-0{:src => "/assets/photo001.jpg"}
-    %img#item-1{:src => "/assets/photo002.jpg"}
-    %img#item-2{:src => "/assets/photo003.jpg"}
+    - for i in 0..2
+      .slideshow-item{:id => "slideshow-item-#{i}"}
+        =image_tag("photo00"+i.to_s)
     .arrow#leftButton
-      %img{:src => "/assets/left.png"}
+      = image_tag("left.png")
     .arrow#rightButton
-      %img{:src => "/assets/right.png"}
+      = image_tag("right.png")
+
+
 
 
