@@ -3,17 +3,22 @@
  */
 $(document).ready( function(){
 
-    $('#rightButton').click( function(){ slideRight($index,2)});
-    $('#leftButton').click( function(){ slideLeft($index,2)});
+    $index = 0;
+    $lenght = $('.slideshow-item').length;
+    $('#rightButton').click( function(){ slideRight()});
+    $('#leftButton').click( function(){ slideLeft()});
 });
 
 
-function slideRight(i,max){
+function slideRight(){
 
+    //take current index and set display property to none
+    //index++
+    //set display property to inline-block
 
 }
 
-function slideLeft(i){
+function slideLeft(){
 
 
 }
